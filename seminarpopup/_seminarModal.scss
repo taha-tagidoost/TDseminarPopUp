@@ -66,7 +66,7 @@ body {
 
       .txt {
         padding-block: 0.3rem;
-        background: linear-gradient(90deg, #48beeb6e 0%, #b54db1 100%);
+          background: linear-gradient(90deg, #b54db1 0% , #48beeb6e 100%);
 
         padding-inline: 1rem;
         border-radius: 0.5rem;
@@ -102,7 +102,7 @@ body {
         justify-content: space-between;
         align-items: center;
         padding-block: 0.6rem;
-        background: linear-gradient(90deg, #48beeb6e 0%, #b54db1 100%);
+                 background: linear-gradient(90deg, #b54db1 0% , #48beeb6e 100%);
         border-radius: $radius;
         padding-inline: 1rem;
 
@@ -175,7 +175,7 @@ body {
         .send {
           background: $primary;
           width: 5.75rem;
-          background: linear-gradient(90deg, #48beeb6e 0%, #b54db1 100%);
+          background: linear-gradient(90deg, #b54db1 0% , #48beeb6e 100%);
           border-radius: $radius;
           display: flex;
           justify-content: center;
