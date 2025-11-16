@@ -1,13 +1,49 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fa">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>seminarpopup</title>
+    <link rel="stylesheet" href="./_seminarModal.scss" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="seminarModalContainer">
+      <div class="imgContainer">
+        <img src="./public/robot/rob.png" alt="" />
+      </div>
+      <div class="vebinarContainer">
+        <div class="txtTitleContainer">
+          <span class="txt">وبینار </span>
+          <i class="fa-regular fa-circle-xmark"></i>
+        </div>
+        <p class="decription">آینده شغلی برنامه نویسی با هوش مصنوعی</p>
+        <div class="timeAndPriceContainer">
+          <p class="textTime">پنجشنبه 26 خرداد ساعت 16</p>
+          <div class="priceContaienr">
+            <div class="pricePart">
+              <span>200.000 تومان</span>
+              <span>رایگان</span>
+            </div>
+            <div class="showTime">
+              <spna class="time">28</spna>:
+              <spna class="time">12</spna>
+            </div>
+          </div>
+        </div>
+
+        <div class="leftYourNumber">
+          <p>شمارتو بذار تا لینکش برات ارسال بشه</p>
+          <div class="leftNumInputCon">
+            <input type="text" placeholder="شماره موبایل" >
+            <a class="send" href=""> ارسال </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/c7278e0f8b.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
